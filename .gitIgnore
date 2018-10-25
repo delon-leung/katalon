@@ -1,0 +1,5 @@
+bin/
+.settings/
+console.properties
+/androidapp/APIDemos.apk
+/settings/internal/
