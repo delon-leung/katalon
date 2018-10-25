@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Login</name>
+   <name>chk_RememberMe</name>
    <tag></tag>
-   <elementGuidId>71dffcc0-9487-4a38-a94c-ad6b2c1c35a1</elementGuidId>
+   <elementGuidId>b08c6a86-6e78-427f-9588-43bbaabb6e29</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'login']</value>
+         <value>//*[@id = 'rememberme']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login</value>
+      <value>rememberme</value>
    </webElementProperties>
 </WebElementEntity>

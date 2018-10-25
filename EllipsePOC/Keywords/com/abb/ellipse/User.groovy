@@ -29,10 +29,12 @@ public class User {
 
 		WebUI.setText(findTestObject('Page_Login/txt_Password'), "")
 
+		WebUI.click(findTestObject('Page_Login/chk_RememberMe'))
+
 		WebUI.comment('When user logs into the system')
 
 		WebUI.click(findTestObject('Page_Login/btn_Login'))
 
-		WebUI.comment('Then user should be able to login successfully')		
+		WebUI.comment('Then user should be able to login successfully')
 	}
 }

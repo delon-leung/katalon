@@ -19,12 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'com.abb.ellipse.User.login'()
 
 WebUI.waitForElementVisible(findTestObject('Page_Login/txt_Quicklaunch'), 0)
 
 WebUI.setText(findTestObject('Page_Login/txt_Quicklaunch'), 'MSE100')
+
+WebUI.sendKeys(findTestObject('Page_Login/txt_Quicklaunch'), Keys.chord(Keys.ENTER))
 
 WebUI.closeBrowser()
 
