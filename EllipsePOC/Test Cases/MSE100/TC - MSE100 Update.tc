@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - MSE100 Update</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>39c71b3d-66b0-48aa-851c-884f7f59b00b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a2a03181-476d-4259-99e4-a5d6afa11439</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dc4e1a26-d001-43ed-927c-4f402c05bc8d</id>
+      <masked>false</masked>
+      <name>stockCode</name>
+   </variable>
+</TestCaseEntity>

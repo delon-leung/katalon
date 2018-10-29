@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Submit</name>
+   <tag></tag>
+   <elementGuidId>5b2f2917-7256-44d3-ba43-a73287dc43bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id='toolbar']//*[contains(@class, 'v-menubar-menuitem')]//*[text()='Submit']/..</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'toolbar' and contains(@class, 'v-menubar-menuitem')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>toolbar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-menubar-menuitem</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text()</name>
+      <type>Main</type>
+      <value>New</value>
+   </webElementProperties>
+</WebElementEntity>

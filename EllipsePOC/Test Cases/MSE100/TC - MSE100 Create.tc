@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - MSE100 Create</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f75c2e4-2181-4814-9144-38803d1645db</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f5cd36b8-530a-4941-9c2a-2093c326ba9e</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+</TestCaseEntity>

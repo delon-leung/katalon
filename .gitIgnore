@@ -3,3 +3,8 @@ bin/
 console.properties
 /androidapp/APIDemos.apk
 /settings/internal/
+EllipsePOC/settings/internal/
+TempTestCase*.groovy
+TempTestSuite*.groovy
+EllipsePOC/Reports/
+Script*.groovy
